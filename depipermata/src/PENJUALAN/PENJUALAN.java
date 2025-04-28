@@ -171,8 +171,8 @@ public class PENJUALAN extends javax.swing.JFrame {
 
         st = conn.prepareStatement(sql);
         rs = st.executeQuery();
-
         // Format angka dalam Rupiah
+//        hgcytdxyjcjh
         NumberFormat rupiahFormat = NumberFormat.getCurrencyInstance(new Locale("id", "ID"));
 
         // Perulangan untuk membaca hasil query

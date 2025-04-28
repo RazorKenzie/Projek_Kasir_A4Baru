@@ -16,19 +16,107 @@
 		<band splitType="Stretch"/>
 	</background>
 	<title>
-		<band height="79" splitType="Stretch"/>
+		<band height="79" splitType="Stretch">
+			<staticText>
+				<reportElement x="228" y="11" width="100" height="20" uuid="2ec7096a-8176-4528-b2c1-43629db2fc07"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[MBP MART]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="128" y="41" width="312" height="20" uuid="a157c600-afda-4890-bb3c-1be1e1d37780"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Dsn.Sukoharjo,Kecamatan.Wilangan,Kabupaten Nganjuk]]></text>
+			</staticText>
+		</band>
 	</title>
 	<pageHeader>
-		<band height="35" splitType="Stretch"/>
+		<band height="35" splitType="Stretch">
+			<staticText>
+				<reportElement x="16" y="15" width="100" height="20" uuid="ab3e381d-5d8b-4e95-b2a1-35fdb0cbd059"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Nama]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="276" y="15" width="24" height="20" uuid="0043cc00-ff94-4217-905a-7c35b9d0482f"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[qty]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="355" y="15" width="85" height="20" uuid="ce83a595-e8da-4b75-aade-40067ca8901f"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Harga]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="455" y="15" width="86" height="20" uuid="7e6b3640-5c7e-44c9-b72b-4c95d696d9d3"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Total]]></text>
+			</staticText>
+		</band>
 	</pageHeader>
 	<columnHeader>
-		<band height="61" splitType="Stretch"/>
+		<band height="112" splitType="Stretch"/>
 	</columnHeader>
 	<detail>
-		<band height="125" splitType="Stretch"/>
+		<band height="119" splitType="Stretch">
+			<staticText>
+				<reportElement x="16" y="11" width="100" height="20" uuid="c83d3438-a748-4046-be60-140da28f2810"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Total]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="16" y="45" width="100" height="20" uuid="ccc41bd7-21d4-40cb-a0d4-05d55c26676f"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Tunai]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="16" y="83" width="100" height="20" uuid="1b5aac0f-8a53-46b9-8695-e0d72ed074cc"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Kembali]]></text>
+			</staticText>
+		</band>
 	</detail>
 	<columnFooter>
-		<band height="45" splitType="Stretch"/>
+		<band height="110" splitType="Stretch">
+			<staticText>
+				<reportElement x="17" y="7" width="211" height="20" uuid="cef1dbdc-2508-43aa-8301-d099860a4872"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Terimakasih atas kunjungan anda]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="16" y="40" width="212" height="20" uuid="8aecdb3e-1fb1-4aff-90a2-70cbf9033bcd"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Periksa barang sebelum dibeli ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="17" y="74" width="338" height="20" uuid="8ad67ce9-c2d8-4511-b4b5-cb5333c19968"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Barang yang sudah dibeli tidak dapat ditukar atau dikembalikan]]></text>
+			</staticText>
+		</band>
 	</columnFooter>
 	<pageFooter>
 		<band height="54" splitType="Stretch"/>
